@@ -75,6 +75,11 @@ input {
   outline: none;
 }
 
+input:focus {
+  transform: scale(1.1);
+  border: 2px solid #ef233c;
+}
+
 .mad-lib {
   width: 20em;
   margin: 2em auto;
